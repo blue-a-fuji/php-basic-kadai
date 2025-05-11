@@ -62,7 +62,12 @@
        $animal = new Animal('dog', 60, 5000);
 
        //  インスタンス$foodの各プロパティの値を出力する
-       print_r($animal);   
+       print_r($animal);
+       
+       // メソッドの呼び出し
+       echo '<br>';
+       echo $food->show_price();
+       echo $animal->show_height();
        ?>
    </p>   
 </body>
